@@ -7,7 +7,7 @@ const Addnote = ({handleAddNote}) => {
         setNoteText(event.target.value);
     };
 
-    const handleClick =  () => {
+    const handleClick =  (e) => {
         handleAddNote(noteText);
     };
 
@@ -16,7 +16,7 @@ const Addnote = ({handleAddNote}) => {
             <textarea rows="8" cols="10" placeholder="Type to add a note..." onChange={handleChange} value={noteText}></textarea>
             <div className="note-footer">
                 <small>200 Remaining</small>
-                <button className="save" onClick={handleClick()}>Save</button>
+                <button className="save" onClick={handleClick}>Save</button>
             </div>
         </div>
     )
