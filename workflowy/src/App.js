@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import { nanoid } from "nanoid";
 import NotesList from "./components/NotesList";
 import Search from './components/Search'
@@ -51,6 +51,10 @@ function App() {
   const [searchText, setSearchText] = useState('');
 
   const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem('workflowy', JSON.stringify(notes))
+  })
 
   return (
     <div className={`${darkMode && 'dark-mode'}`}>
