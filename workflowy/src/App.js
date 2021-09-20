@@ -53,8 +53,18 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem('workflowy', JSON.stringify(notes))
-  })
+    const savedNotes = JSON.parse(localStorage.getItem('workflowy'));
+
+    if(savedNotes)
+    {
+      setNotes(savedNotes);
+    }
+
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('workflowy', JSON.stringify(notes));
+  }, [notes]);
 
   return (
     <div className={`${darkMode && 'dark-mode'}`}>
