@@ -1,6 +1,6 @@
 # Workflowy - Note making web app
 
--When it comes to classroom learning and retention, note-taking is one of the most powerful tools that students have at their disposal.
+-When it comes to classroom learning and retention, note-taking is one of the most powerful tools that students have at their disposal.<br/>
 -Studies have found that note-taking facilitates the recall of factual information, as well as the synthesis and application of new knowledge.
 
 Perks -
