@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/workflowy/static/css/main.a96ab435.chunk.css",
+    "main.js": "/workflowy/static/js/main.10bb7311.chunk.js",
+    "main.js.map": "/workflowy/static/js/main.10bb7311.chunk.js.map",
+    "runtime-main.js": "/workflowy/static/js/runtime-main.8a012b03.js",
+    "runtime-main.js.map": "/workflowy/static/js/runtime-main.8a012b03.js.map",
+    "static/js/2.389cd626.chunk.js": "/workflowy/static/js/2.389cd626.chunk.js",
+    "static/js/2.389cd626.chunk.js.map": "/workflowy/static/js/2.389cd626.chunk.js.map",
+    "index.html": "/workflowy/index.html",
+    "static/css/main.a96ab435.chunk.css.map": "/workflowy/static/css/main.a96ab435.chunk.css.map",
+    "static/js/2.389cd626.chunk.js.LICENSE.txt": "/workflowy/static/js/2.389cd626.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a012b03.js",
+    "static/js/2.389cd626.chunk.js",
+    "static/css/main.a96ab435.chunk.css",
+    "static/js/main.10bb7311.chunk.js"
+  ]
+}
