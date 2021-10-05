@@ -9,4 +9,3 @@
   3. Accessibility: Beyond the convenience in your pocket, most note taking apps also provide remarkable accessibility. You can add, copy and edit your notes from a laptop, tablet or phone. This helps you transfer notes to work accounts or easily share them with friends.
 
 ### Have Look - https://prsi007.github.io/workflowy/
---
